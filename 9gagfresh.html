@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+
+<html>
+<title>{{ freshname }}</title>
+<body>
+<h1>{{ freshname }}</h1>
+{% for i in range(0,len) %}
+<div>
+    <p>
+        {{ freshtitles[i] }}
+        <a href="{{ freshlinks[i] }}">{{ freshlinks[i] }}</a>
+    </p>
+</div>
+{% endfor %}
+</body>
+</html>
